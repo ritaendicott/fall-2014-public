@@ -3,8 +3,10 @@ Statistics 157: Reproducible and Collaborative Data Science
 
 Course Materials for Stat 157: Reproducible and Collaborative Data Science (Fall 2014).
 
-
-TuTh 9:30-11AM   247 CORY Hall UC Berkeley
+```
+TuTh 9:30-11AM
+247 CORY Hall UC Berkeley
+```
 
 # Description
 The course will cover philosophy, software tools, processes and best practices for reproducible computational research. The software tools will include git, Python, IPython, SQL, LaTeX, laptop-based Virtualization, and Amazon Web Services. There will be a collaborative term project.
@@ -36,8 +38,10 @@ Topics Covered Will Include:
 * Code Reviews and Unit Testing
 * Data Visualization
 * Code efficiency
+* Unstructured data
 * MapReduce
 * AWS
+
 
 # Prerequisites
 At least one upper­division course in statistics and at least one upper­division course that requires programming or data analysis. Statistics 133 fulfills both requirements.
@@ -46,4 +50,14 @@ At least one upper­division course in statistics and at least one upper­divisi
 * Lecture Attendance / Participation
 * Homework Assigments
 * Collaborative Term Project
+* 
+
+# Textbook
+W. McKinney, 2012. Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython, O’Reilly Press. Available as an e­book and a print book.
+
+# Data set for the class projects
+Predict the click-through rate of ads given the query and user information. 
+https://www.kddcup2012.org/c/kddcup2012-track2
+
+
 
