@@ -10,19 +10,19 @@ TuTh 9:30-11AM   247 CORY Hall UC Berkeley
 The course will cover philosophy, software tools, processes and best practices for reproducible computational research. The software tools will include git, Python, IPython, SQL, LaTeX, laptop-based Virtualization, and Amazon Web Services. There will be a collaborative term project.
 
 # Instructor
+```
 Yannet Interian
-
 Department of Statistics
-
-<yannet@berkeley.edu>
-
+yannet at berkeley.edu
+```
 # Graduate Student Instructor
 TBA
 
 # Class Logistics
+```
 Units/Credits: 3
-
 No Final Exam
+```
 
 # Format
 This course will focus heavily on in-class participation in addition to assigned readings from scholarly journals, presentations from guest speakers in addition to regular practice with the software tools listed in the description. There will be a few programming assignments. 
