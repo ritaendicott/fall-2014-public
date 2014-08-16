@@ -50,7 +50,6 @@ At least one upper­division course in statistics and at least one upper­divisi
 * Lecture Attendance / Participation
 * Homework Assigments
 * Collaborative Term Project
-* 
 
 # Textbook
 W. McKinney, 2012. Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython, O’Reilly Press. Available as an e­book and a print book.
