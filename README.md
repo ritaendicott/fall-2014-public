@@ -59,16 +59,16 @@ Predict the click-through rate of ads given the query and user information.
 https://www.kddcup2012.org/c/kddcup2012-track2
 
 COURSE SCHEDULE: The following is a tentative schedule.
-• Week 1: Introduction and Course Overview. What is data science? Why Python? What is reproducibility? What is the difference between reproducibility, replicability, verifiability, and auditability? Why is reproducibility important to the scientific method? Why are most scientific publications not reproducible? What is the impact of that?
-* Homework 1: Install BCE, get a github account, complete Python codeacademy tuto- rial.
-* Readings: Approaches and Barriers to Reproducible Practices in Biostatistics. M. S. Shotwell and J. M. Alvarez
+* Week 1: Introduction and Course Overview. What is data science? Why Python? What is reproducibility? What is the difference between reproducibility, replicability, verifiability, and auditability? Why is reproducibility important to the scientific method? Why are most scientific publications not reproducible? What is the impact of that?
+  * Homework 1: Install BCE, get a github account, complete Python codeacademy tuto- rial.
+  * Readings: Approaches and Barriers to Reproducible Practices in Biostatistics. M. S. Shotwell and J. M. Alvarez
 http://reproducibleresearch.net/
 Roger Peng coursera class on Reproducible Research http://rrcns.readthedocs.org/en/cns2013/reproducible research.html
 
-• Week 2: Introduction to the scientific problem for the semester: predict the click-through rate (CTR) of ads given the query and user information.∗ Start data manipulation and analysis in Python. Background on Search advertising, problem definition and CTR.
-– Homework 2: Find, read, and summarize two scientific articles about our problem for the semester. Summarize the scientific problem in your own words. Write your summary in latex.
-– Lab 1: Review of Python basics (strings, lists, dictionary, loops).
-– Readings: Chapter 9, 15. Networks, Crowds, and Markets: Reasoning about a Highly Connected World. By David Easley and Jon Kleinberg.
+* Week 2: Introduction to the scientific problem for the semester: predict the click-through rate (CTR) of ads given the query and user information.∗ Start data manipulation and analysis in Python. Background on Search advertising, problem definition and CTR.
+  * Homework 2: Find, read, and summarize two scientific articles about our problem for the semester. Summarize the scientific problem in your own words. Write your summary in latex.
+  * Lab 1: Review of Python basics (strings, lists, dictionary, loops).
+  * Readings: Chapter 9, 15. Networks, Crowds, and Markets: Reasoning about a Highly Connected World. By David Easley and Jon Kleinberg.
 Chapter 8. Mining of Massive Datasets. Jure Leskovec, Anand Rajaraman, Jeff Ullman. (both books are free online)
 
 • Week 3: Basic Concepts from Statistical Learning / Machine Learning. Classification. Lo- gistic regression.
