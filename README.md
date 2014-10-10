@@ -97,7 +97,7 @@ Chapter 8. Mining of Massive Datasets. Jure Leskovec, Anand Rajaraman, Jeff Ullm
   * Lab 6: Getting started in git. Random forest from scratch in Python.
   * Readings: Chapter 8. An Introduction to Statistical Learning.
 
-* Week 8: Intoduction to Hadoop and MapReduce. Python streaming.
+* Week 8: Introduction to Hadoop and MapReduce. Python streaming.
   * Homework 6: Writing mapreduce code in python: - compute word count for bi-grams, - aggregating CTR data
   * Readings: 
     * Chaper 2.1-2.2 .Mining of Massive Datasets. Rajaraman, Ullman, Leskovec, Ullman.
