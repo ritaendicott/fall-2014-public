@@ -8,27 +8,26 @@ TuTh 9:30-11AM
 247 CORY Hall UC Berkeley
 ```
 
-# Description
+## Description
 This course is a project based introduction to reproducible and collaborative statistical research. You will gain experience acquiring, cleaning, and curating data; formulating scientific questions statistically; writing statistical methods in Python from scratch; designing and implementing new features (feature engineering); developing appropriate statistical methods to analyze the data; implementing those methods in robust, testable, reusable, extensible software; applying the methods; visualizing the results; interpreting the results; and communicating the results to others. You will learn this in a way that is computationally reproducible, which is increasingly recognized as key to scientific progress. The software tools will include git, Python, IPython, SQL, LaTeX, laptop-based Virtualization, and Amazon Web Services. There will be a collaborative term project.
 
-# Instructor
+## Instructor
 ```
 Yannet Interian
 Department of Statistics, UC Berkeley
 yannet at berkeley.edu
 ```
-# Graduate Student Instructor
+## Graduate Student Instructor
 Sindhuja Jeyabal 
 
-# Class Logistics
+## Class Logistics
 ```
 Units/Credits: 3
 No Final Exam
 ```
 
-# Format
-This course will focus heavily on in-class participation in addition to assigned readings from scholarly journals, presentations from guest speakers in addition to regular practice with the software tools listed in the description. There will be a few programming assignments. 
-
+## Format
+This course will focus heavily on in-class participation. There weekly programming assignments and programming labs. 
 Your persistent cooperation in group work and contributions to the course will culminate into a collaborative term project. The format will be interactive and will involve your questions, opinions, and participation.
 
 Topics Covered Will Include:
@@ -39,26 +38,28 @@ Topics Covered Will Include:
 * Data Visualization
 * Code efficiency
 * Unstructured data
-* MapReduce
+* MapReduce and Hadoop
 * AWS
+* SQL and databases
 
 
-# Prerequisites
+## Prerequisites
 At least one upper­division course in statistics and at least one upper­division course that requires programming or data analysis. Statistics 133 fulfills both requirements.
 
-# Grading
+## Grading
 * Lecture Attendance / Participation
 * Homework Assigments
 * Collaborative Term Project
 
-## Textbook
-W. McKinney, 2012. Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython, O’Reilly Press. Available as an e­book and a print book.
+## Textbooks
+* W. McKinney, 2012. Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython, O’Reilly Press. Available as an e­book and a print book.
+* James, Witten, Hastie, Tibshirani. An Introduction to Statistical Learning, with Applications in R (2013, free online)
 
 ## Data set for the class projects
 Predict the click-through rate of ads given the query and user information. 
 https://www.kddcup2012.org/c/kddcup2012-track2
 
-## COURSE SCHEDULE: The following is a tentative schedule.
+## Course Schedule: The following is a tentative schedule.
 * Week 1: Introduction and Course Overview. What is data science? Why Python? What is reproducibility? What is the difference between reproducibility, replicability, verifiability, and auditability? Why is reproducibility important to the scientific method? Why are most scientific publications not reproducible? What is the impact of that?
   * Homework 1: Install BCE, get a github account, complete Python codeacademy tuto- rial.
   * Readings: Approaches and Barriers to Reproducible Practices in Biostatistics. M. S. Shotwell and J. M. Alvarez
