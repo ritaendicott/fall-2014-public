@@ -66,7 +66,7 @@ https://www.kddcup2012.org/c/kddcup2012-track2
 http://reproducibleresearch.net/
 Roger Peng coursera class on Reproducible Research http://rrcns.readthedocs.org/en/cns2013/reproducible research.html
 
-* Week 2: Introduction to the scientific problem for the semester: predict the click-through rate (CTR) of ads given the query and user information.∗ Start data manipulation and analysis in Python. Background on Search advertising, problem definition and CTR.
+* Week 2: Introduction to the scientific problem for the semester: predict the click-through rate (CTR) of ads given the query and user information. Start data manipulation and analysis in Python. Background on Search advertising, problem definition and CTR.
   * Homework 2: Find, read, and summarize two scientific articles about our problem for the semester. Summarize the scientific problem in your own words. Write your summary in latex.
   * Lab 1: Review of Python basics (strings, lists, dictionary, loops).
   * Readings: Chapter 9, 15. Networks, Crowds, and Markets: Reasoning about a Highly Connected World. By David Easley and Jon Kleinberg.
@@ -79,7 +79,7 @@ Chapter 8. Mining of Massive Datasets. Jure Leskovec, Anand Rajaraman, Jeff Ullm
 
 * Week 4: Logistic regression R demo. Evaluation methods for classification. ROC and AUC. K Nearest Neighbors (KNN) Classifier. pylint.
   * Homework 4: Basic feature engineering using the CTR data. Computing similarities between queries and ads.
-  * Lab 3: Write KNN algorithm from scratch in Python. (The data is here: https://www.kddcup2012.org/c/kddcup2012-track2)
+  * Lab 3: Write KNN algorithm from scratch in Python. 
   * Readings: Chapter 4. An Introduction to Statistical Learning. An introduction to ROC analysis, Tom Fawcett.
 
 * Week 5: Validation and Cross-validation. Model selection and Regularization. R demo.
