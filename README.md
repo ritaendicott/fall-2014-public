@@ -71,37 +71,37 @@ Roger Peng coursera class on Reproducible Research http://rrcns.readthedocs.org/
   * Readings: Chapter 9, 15. Networks, Crowds, and Markets: Reasoning about a Highly Connected World. By David Easley and Jon Kleinberg.
 Chapter 8. Mining of Massive Datasets. Jure Leskovec, Anand Rajaraman, Jeff Ullman. (both books are free online)
 
-• Week 3: Basic Concepts from Statistical Learning / Machine Learning. Classification. Lo- gistic regression.
-– Homework 3: Basic parsing and manipulation of data in Python. (Using the CTR data)
-– Lab 2: Python Quiz.
-– Readings: Chapter 2. An Introduction to Statistical Learning.
+* Week 3: Basic Concepts from Statistical Learning / Machine Learning. Classification. Lo- gistic regression.
+  * Homework 3: Basic parsing and manipulation of data in Python. (Using the CTR data)
+  * Lab 2: Python Quiz.
+  * Readings: Chapter 2. An Introduction to Statistical Learning.
 
-• Week 4: Logistic regression R demo. Evaluation methods for classification. ROC and AUC. K Nearest Neighbors (KNN) Classifier. pylint.
-– Homework 4: Basic feature engineering using the CTR data. Computing similarities between queries and ads.
-– Lab 3: Write KNN algorithm from scratch in Python. ∗The data is here: https://www.kddcup2012.org/c/kddcup2012-track2
-– Readings: Chapter 4. An Introduction to Statistical Learning. An introduction to ROC analysis, Tom Fawcett.
+* Week 4: Logistic regression R demo. Evaluation methods for classification. ROC and AUC. K Nearest Neighbors (KNN) Classifier. pylint.
+  * Homework 4: Basic feature engineering using the CTR data. Computing similarities between queries and ads.
+  * Lab 3: Write KNN algorithm from scratch in Python. (The data is here: https://www.kddcup2012.org/c/kddcup2012-track2)
+  * Readings: Chapter 4. An Introduction to Statistical Learning. An introduction to ROC analysis, Tom Fawcett.
 
-• Week 5: Validation and Cross-validation. Model selection and Regularization. R demo.
-– Homework 5: More feature engineering using the CTR data. Unittest in Python. – Lab 4: Unittest and cross-validation on the KNN code.
-– Readings: Chapter 5 and 6. An Introduction to Statistical Learning.
+* Week 5: Validation and Cross-validation. Model selection and Regularization. R demo.
+  * Homework 5: More feature engineering using the CTR data. Unittest in Python. – Lab 4: Unittest and cross-validation on the KNN code.
+  * Readings: Chapter 5 and 6. An Introduction to Statistical Learning.
 
-• Week 6: Bootstrap and Decision Trees. R demo.
-– Homework 6: Quantile function from scratch, bootstrap to compute confidence inter-
+* Week 6: Bootstrap and Decision Trees. R demo.
+  * Homework 6: Quantile function from scratch, bootstrap to compute confidence inter-
 vals on the median from scratch. Unittests for the two functions.
-– Lab 5: Write from scratch the ID3 algorithm for decision trees (providing the recursive function.)
-– Readings: Chapter 8.1. An Introduction to Statistical Learning.
+  * Lab 5: Write from scratch the ID3 algorithm for decision trees (providing the recursive function.)
+  * Readings: Chapter 8.1. An Introduction to Statistical Learning.
 
-• Week 7: More on Decision Trees. Bagging, Random Forest and Boosting. R demo.
-– Homework 6: Functions for: Ginix Index, binary splitting numerical variables for decision trees, prediction with decision trees. Unittests for the three functions.
-– Lab 6: Getting started in git. Random forest from scratch in Python.
-– Readings: Chapter 8. An Introduction to Statistical Learning.
+* Week 7: More on Decision Trees. Bagging, Random Forest and Boosting. R demo.
+  * Homework 6: Functions for: Ginix Index, binary splitting numerical variables for decision trees, prediction with decision trees. Unittests for the three functions.
+  * Lab 6: Getting started in git. Random forest from scratch in Python.
+  * Readings: Chapter 8. An Introduction to Statistical Learning.
 
- Week 8: Intoduction to Hadoop and MapReduce. Python streaming.
-– Homework 6: Writing mapreduce code in python: - compute word count for bi-grams, - aggregating CTR data
-- Readings: Chaper 2.1-2.2 .Mining of Massive Datasets. Rajaraman, Ullman, Leskovec, Ullman.
-http://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/– Readings: 
+* Week 8: Intoduction to Hadoop and MapReduce. Python streaming.
+  * Homework 6: Writing mapreduce code in python: - compute word count for bi-grams, - aggregating CTR data
+  * Readings: Chaper 2.1-2.2 .Mining of Massive Datasets. Rajaraman, Ullman, Leskovec, Ullman.
+              http://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/– Readings: 
 
-• Week 8-12: Hadoop and MapReduce, AWS. Python streaming. Aggregating CTR data, feature engieneering with MapReduce. Distributed file systems. Implementing a couple of distributed algorithms. Apply machine learning algorithms to different versions (aggregated versions) of the data. Start collaborative projects, set milestones, set up the issue tracker. Collaborative project proposal due on week 10. Code reviewing.
+*  Week 8-12: Hadoop and MapReduce, AWS. Python streaming. Aggregating CTR data, feature engieneering with MapReduce. Distributed file systems. Implementing a couple of distributed algorithms. Apply machine learning algorithms to different versions (aggregated versions) of the data. Start collaborative projects, set milestones, set up the issue tracker. Collaborative project proposal due on week 10. Code reviewing.
 
-• Week 13-15: Data structures and databases. An introduction to databases using SQLite. Students make 5 minute presentations. Code review and reproducibility review. Ipython, pandas and numpy. Mini lectures on statistical and computational tools needed to complete the project.
+* Week 13-15: Data structures and databases. An introduction to databases using SQLite. Students make 5 minute presentations. Code review and reproducibility review. Ipython, pandas and numpy. Mini lectures on statistical and computational tools needed to complete the project.
 
