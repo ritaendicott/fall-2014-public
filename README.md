@@ -14,7 +14,7 @@ This course is a project based introduction to reproducible and collaborative st
 # Instructor
 ```
 Yannet Interian
-Department of Statistics
+Department of Statistics, UC Berkeley
 yannet at berkeley.edu
 ```
 # Graduate Student Instructor
