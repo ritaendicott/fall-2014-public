@@ -51,14 +51,14 @@ At least one upper­division course in statistics and at least one upper­divisi
 * Homework Assigments
 * Collaborative Term Project
 
-# Textbook
+## Textbook
 W. McKinney, 2012. Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython, O’Reilly Press. Available as an e­book and a print book.
 
-# Data set for the class projects
+## Data set for the class projects
 Predict the click-through rate of ads given the query and user information. 
 https://www.kddcup2012.org/c/kddcup2012-track2
 
-COURSE SCHEDULE: The following is a tentative schedule.
+## COURSE SCHEDULE: The following is a tentative schedule.
 * Week 1: Introduction and Course Overview. What is data science? Why Python? What is reproducibility? What is the difference between reproducibility, replicability, verifiability, and auditability? Why is reproducibility important to the scientific method? Why are most scientific publications not reproducible? What is the impact of that?
   * Homework 1: Install BCE, get a github account, complete Python codeacademy tuto- rial.
   * Readings: Approaches and Barriers to Reproducible Practices in Biostatistics. M. S. Shotwell and J. M. Alvarez
