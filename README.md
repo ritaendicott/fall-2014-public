@@ -99,8 +99,9 @@ Chapter 8. Mining of Massive Datasets. Jure Leskovec, Anand Rajaraman, Jeff Ullm
 
 * Week 8: Intoduction to Hadoop and MapReduce. Python streaming.
   * Homework 6: Writing mapreduce code in python: - compute word count for bi-grams, - aggregating CTR data
-  * Readings: Chaper 2.1-2.2 .Mining of Massive Datasets. Rajaraman, Ullman, Leskovec, Ullman.
-              http://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/ 
+  * Readings: 
+    * Chaper 2.1-2.2 .Mining of Massive Datasets. Rajaraman, Ullman, Leskovec, Ullman.
+    * http://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/ 
 
 *  Week 8-12: Hadoop and MapReduce, AWS. Python streaming. Aggregating CTR data, feature engieneering with MapReduce. Distributed file systems. Implementing a couple of distributed algorithms. Apply machine learning algorithms to different versions (aggregated versions) of the data. Start collaborative projects, set milestones, set up the issue tracker. Collaborative project proposal due on week 10. Code reviewing.
 
