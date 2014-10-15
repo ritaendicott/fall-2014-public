@@ -7,7 +7,7 @@ Try running the mapper in the first Shakespeare sonnet
 python word_count_mapper.py < shakes_chunk_1.txt 
 ```
 
-To reproduce what mapReduce would do in this data:
+To reproduce what mapReduce would do using word_count_mapper.py  and word_count_reducer.py with this data.
 
 ```
 python word_count_mapper.py < shakes_chunk_1.txt >  mapper_1_out.txt
