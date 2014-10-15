@@ -15,3 +15,18 @@ python word_count_mapper.py < shakes_chunk_1.txt >  mapper_1_out.txt
 sort  mapper_1_out.txt > reducer_1_input.txt
 python word_count_reducer.py < reducer_1_input.txt
 ```
+
+We can work with more files
+```
+python word_count_mapper.py < shakes_chunk_1.txt >  mapper_1_out.txt
+python word_count_mapper.py < shakes_chunk_2.txt >  mapper_2_out.txt
+python word_count_mapper.py < shakes_chunk_3.txt >  mapper_3_out.txt
+# concatenate all mapper ouputs
+cat mapper_1_out.txt mapper_2_out.txt mapper_3_out.txt  > mapper_out.txt
+# sorting 
+sort  mapper_out.txt > reducer_input.txt
+python word_count_reducer.py < reducer_input.txt
+```
+#Exercises write a mapper and a reducer:
+1. To compute a histogram of words length.
+2. 
