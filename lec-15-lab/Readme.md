@@ -28,6 +28,19 @@ sort  mapper_out.txt > reducer_input.txt
 python word_count_reducer.py < reducer_input.txt
 ```
 #Exercises
-Write a mapper and a reducer to:
-1. Compute a histogram of words length.
-2. 
+
+Exercise 1:
+Write a mapper and a reducer to compute a histogram of words length.
+ 
+Exercise 2:
+Download dataset book rating dataset http://www2.informatik.uni-freiburg.de/~cziegler/BX/BX-CSV-Dump.zip
+
+Answer the following questions by writting mapReduce jobs.
+-- How different are books rated in different cities?  Compute average rate per book per city/country. Use cities with at least 10 users. (mapper_cities.py, reducer_cities.py)
+-- Find the top 30 rated authors. (mapper_authors.py, reducer_authors.py)
+-- Find users that rated the same author multiple times. 
+
+Submit your solutions to bcources.
+
+
+
