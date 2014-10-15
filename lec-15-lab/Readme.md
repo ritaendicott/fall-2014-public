@@ -27,6 +27,7 @@ cat mapper_1_out.txt mapper_2_out.txt mapper_3_out.txt  > mapper_out.txt
 sort  mapper_out.txt > reducer_input.txt
 python word_count_reducer.py < reducer_input.txt
 ```
-#Exercises write a mapper and a reducer:
-1. To compute a histogram of words length.
+#Exercises
+Write a mapper and a reducer to:
+1. Compute a histogram of words length.
 2. 
