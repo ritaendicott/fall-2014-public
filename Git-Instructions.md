@@ -1,30 +1,38 @@
 Git Instructions
 ================
 
-Generating ssh keys
-https://help.github.com/articles/generating-ssh-keys/
+These are the instructions for Lec-13-lab
 
+# Objectives
+Learn how to use github for collaboration.
+
+# Instructions
+Git installed in your VM. Open a terminal on your VM and
+follow the instructions.
+
+Follow instructions here for setting up git
+https://help.github.com/articles/set-up-git/
+
+We are going to connect over ssh. Generate your ssh keys
+Generating ssh keys https://help.github.com/articles/generating-ssh-keys/
+
+Clone a repo
+Create a directory for all your repos. Clone the test repo.
 
 ```
-TuTh 9:30-11AM
-247 CORY Hall UC Berkeley
+mkdir repos
+cd repos
+git clone git@github.com:ucb-stat-157/Test.git
+cd Test
+ls
 ```
 
-# Description
-The course will cover philosophy, software tools, processes and best practices for reproducible computational research. The software tools will include git, Python, IPython, SQL, LaTeX, laptop-based Virtualization, and Amazon Web Services. There will be a collaborative term project.
-
-# Instructor
+Making changes. Let's make a personal copy of dt.py and submit it to the
+repository.
 ```
-Yannet Interian
-Department of Statistics
-yannet at berkeley.edu
-```
-# Graduate Student Instructor
-TBA
-
-# Class Logistics
-```
-Units/Credits: 3
-No Final Exam
+cp dt.py dt_<githubId>.py
+git add dt_<githubId>.py
+git commit -m "adding my dt file"
+git push origin master
 ```
 
