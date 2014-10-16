@@ -1,5 +1,8 @@
 # Hadoop streaming
-Hadoop streaming is a utility that comes with the Hadoop distribution. The utility allows you to create and run Map/Reduce jobs with any executable or script as the mapper and/or the reducer. The mapper and the reducer are executables that read the input from stdin (line by line) and emit the output to stdout. The utility will create a Map/Reduce job, submit the job to an appropriate cluster, and monitor the progress of the job until it completes. (http://hadoop.apache.org/docs/r1.2.1/streaming.html)
+Hadoop streaming is a utility that comes with the Hadoop distribution. The utility allows you to create and run Map/Reduce jobs with any executable or script as the mapper and/or the reducer. The mapper and the reducer are executables that read the input from stdin (line by line) and emit the output to stdout. The utility will create a Map/Reduce job, submit the job to an appropriate cluster, and monitor the progress of the job until it completes. (more info: http://hadoop.apache.org/docs/r1.2.1/streaming.html)
+
+* The mapper takes lines from the input and converts them into key/value pairs.
+* By default, the prefix of a line up to the first tab character is the key and the rest of the line (excluding the tab character) will be the value
 
 # Word count with Hadoop streaming 
 
