@@ -42,7 +42,7 @@ Exercise 2:
 Download dataset book rating dataset http://www2.informatik.uni-freiburg.de/~cziegler/BX/BX-CSV-Dump.zip
 
 Answer the following questions by writting mapReduce jobs.
-* How different are books rated in different cities?  Compute average rate per book per city/country. Use cities with at least 10 users. (mapper_cities.py, reducer_cities.py)
+* How different are books rated in different cities?  Compute average rate per city/country. Use cities with at least 10 users. (mapper_cities.py, reducer_cities.py)
 * Find the top 30 rated authors. (mapper_authors.py, reducer_authors.py)
 * Find users that rated the same author multiple times. 
 
