@@ -1,3 +1,7 @@
+# Hadoop streaming
+Hadoop streaming is a utility that comes with the Hadoop distribution. The utility allows you to create and run Map/Reduce jobs with any executable or script as the mapper and/or the reducer. The mapper and the reducer are executables that read the input from stdin (line by line) and emit the output to stdout. The utility will create a Map/Reduce job, submit the job to an appropriate cluster, and monitor the progress of the job until it completes.
+
+
 # Word count with Hadoop streaming 
 
 http://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/
