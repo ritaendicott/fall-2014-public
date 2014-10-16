@@ -12,5 +12,9 @@ class TestBookRating(unittest.TestCase):
         out1 = br.parsing_record(r1)
         self.assertEqual(out1, {"record_type": "user", "user":"1",\
                 "location": "nyc, new york, usa", "age": "NULL"})
+        r2 = '"156096";"02067800095";"8"'
+        out2 = br.parsing_record(r2)
+        self.assertEqual(out2, {"record_type": "rating", "isbn":"02067800095",\
+                "user":"156096", "rating": "8"})
 if __name__ == "__main__":
     unittest.main()

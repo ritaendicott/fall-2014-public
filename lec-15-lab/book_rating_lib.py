@@ -5,10 +5,19 @@ import re
 
 def check_isbn(isbn):
     match = re.search(r'^(\d{9})(\d|X)$', isbn)
-    if not match:
+    match2 = re.search(r'^(\d{9,11})$', isbn)
+    if not match and not match2:
         return False
     else:
         return True
+
+def check_location(loc):
+    """ Checks if loc has a word and a  ","
+    """
+    if re.search(r"[a-zA-Z]\w,.*", loc) != None:
+        return True
+    else:
+        return False
 
 def parsing_record(line):
     """ Given a record (line) from the BX dataset return type.
@@ -27,7 +36,7 @@ def parsing_record(line):
         if check_isbn(words[1]) and words[0].isdigit():
             return {"record_type": "rating", "isbn": words[1],\
                     "user": words[0], "rating": words[2]}
-        if words[0].isdigit():
+        if words[0].isdigit() and check_location(words[1]):
             return {"record_type": "user", "user": words[0],\
                     "location": words[1], "age": words[2]}
     return None
