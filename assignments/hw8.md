@@ -1,6 +1,7 @@
-Statistics 157: Homework 8: Reproducible and Collaborative Data Science
+Statistics 157: 
 ================
 
+Homework 8: Reproducible and Collaborative Data Science
 
 
 Write mapReduce jobs for the following:
