@@ -24,7 +24,7 @@ Method in which we find similarities between items (artists) to make recommendat
 One was of computing similarities between two artists (A and B) is by computing the following metric.
 
 ```
-| User who listen to A AND B | / |Users who listen to A or B|
+| User who listen to A AND B | / |Users who listen to A OR B|
 ```
 
 
