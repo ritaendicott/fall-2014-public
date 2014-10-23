@@ -21,7 +21,7 @@ user-mboxsha1 \t gender (m|f|empty) \t age (int|empty) \t country (str|empty) \t
 
 Method in which we find similarities between items (artists) to make recommendations. 
 
-One way of computing similarities between two artists (A and B) is by computing the following metric.
+One way of quantify similarities between two artists (A and B) is by computing the following metric.
 
 ```
 | User who listen to A AND B | / |Users who listen to A OR B|
