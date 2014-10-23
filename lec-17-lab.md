@@ -36,12 +36,14 @@ user \t artist-id \t artist-name \t plays
    user \t artist-id \t artist-id-total <br>
    where artist-id-total are the number of user who pay to artist-id.
 
-* Step 2: From the dataset in step 1 create a new dataset
-   user \t (artist-id1, artist-id1-total), (artist-id2, artist-id2-total) ...
+* Step 2: From the dataset in step 1 create a new dataset <br>
+   user \t (artist-id1, artist-id1-total), (artist-id2, artist-id2-total) ... <br>
    that is, all the artists played by user
 
-* Step 3: From the datset in step 2 create the following dataset
-  (artist-id1, artist-id2) \t (intercept-id1-id2, artist-id1-total, artist-id2-total)
+* Step 3: From the datset in step 2 create the following dataset <br>
+  (artist-id1, artist-id2) \t (intercept-id1-id2, artist-id1-total, artist-id2-total) <br>
   where intercept-id1-id2 are the number of users who listen to  artist-id1 AND artist-id2
+
+* Now think about how would you finish your recommendation algorithm
 
 Submit your solutions to bcources.
