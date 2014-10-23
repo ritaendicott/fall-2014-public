@@ -36,10 +36,12 @@ user \t artist-id \t artist-name \t plays
    user \t artist-id \t artist-id-total
    where artist-id-total are the number of user who pay to artist-id.
 
-* Step 2: From the dataset described above create a new dataset
+* Step 2: From the dataset in step 1 create a new dataset
    user \t (artist-id1, artist-id1-total), (artist-id2, artist-id2-total) ...
    that is, all the artists played by user
 
-* Step 3:
+* Step 3: From the datset in step 2 create the following dataset
+  (artist-id1, artist-id2) \t (intercept-id1-id2, artist-id1-total, artist-id2-total)
+  where intercept-id1-id2 are the number of users who listen to  artist-id1 AND artist-id2
 
 Submit your solutions to bcources.
