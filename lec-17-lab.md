@@ -32,7 +32,7 @@ Our last.fm file has
 
 user \t artist-id \t artist-name \t plays
 
-* Step 1: Create a new data set with
+* Step 1: Create a new data set with <br>
    user \t artist-id \t artist-id-total <br>
    where artist-id-total are the number of user who pay to artist-id.
 
