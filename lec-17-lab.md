@@ -29,9 +29,17 @@ One was of computing similarities between two artists (A and B) is by computing 
 
 
 Our last.fm file has
+
 user \t artist-id \t artist-name \t plays
 
 * Step 1: Create a new data set with
-   user \t artist-id \t artist-name \t plays
+   user \t artist-id \t artist-id-total
+   where artist-id-total are the number of user who pay to artist-id.
+
+* Step 2: From the dataset described above create a new dataset
+   user \t (artist-id1, artist-id1-total), (artist-id2, artist-id2-total) ...
+   that is, all the artists played by user
+
+* Step 3:
 
 Submit your solutions to bcources.
