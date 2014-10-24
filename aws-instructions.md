@@ -24,6 +24,10 @@ brew install s3cmd
 ```
 sudo apt-get install -y s3cmd
 ```
+You need to configure s3cmd. For this you need your access key and secret key from your amazon account. 
+```
+s3cmd --configure
+```
 sample commands
 ```
 # List your buckets
