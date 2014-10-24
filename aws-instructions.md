@@ -21,8 +21,9 @@ https://s157-uq2023f.aws.amazon.com/console
 brew install s3cmd
 ```
 * For linux (VM)
+```
 sudo apt-get install -y s3cmd
-
+```
 sample commands
 ```
 # List your buckets
