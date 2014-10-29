@@ -13,7 +13,8 @@ https://s157-uq2023f.aws.amazon.com/console
 
 * 
 
-### To upload and download data from S3 get s3cmd
+### s3cmd
+To upload and download data from S3
 * http://s3tools.org/download
 
 * For mac you can use brew
