@@ -20,6 +20,11 @@ logs
 outputs
 code
 ```
+Under "code" make the folder "word_count" and upload the files (from lec-15-lab):
+```
+word_count_mapper.py
+word_count_reducer.py
+```
 Under "code" make the folder "count_ids" and upload the files:
 ```
 count_ids_reducer.py
@@ -29,6 +34,12 @@ count_ids_mapper.py
 #### Run your code on ElasticMapreduce
 Open a new tab with ElasticMapreduce
 
+First:
+* Part 1: Run your mapreduce job with the word_count and the file:
+```
+https://s3-us-west-2.amazonaws.com/stat157-uq85def/shared/shakes.txt
+```
+* Part 2: Run your mapreduce job with the CTR data and the code under code/count_ids
 
 Follow the instructions from the slides from the class.
 * Create a cluster
