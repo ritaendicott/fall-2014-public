@@ -2,6 +2,15 @@ AWS Recipies
 ================
 ### Recipe for transfering data from one bucket to another using EC2 
 
+* Install and configure s3cmd (for the s3 bucket that has the data)
+* cp the data using s3cmd get
+* If your data is large > 7G
+  * You need to mount a volume first
+  * Follow instructions below
+* Configure s3cmd for the s3 bucket to cp the data
+* Use s3cmd put
+
+
 I followed these instructions
 http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html
 
