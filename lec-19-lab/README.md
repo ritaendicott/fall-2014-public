@@ -1,17 +1,33 @@
 Lecture 19 Lab
 ================
 
-# Objectives
+## Objectives
 Learn how to work with AWS
 
 ## Instructions
+git pull to get the start code for the class.
+
 
 ### aws account login
 https://s157-uq2023f.aws.amazon.com/console
 
 ### To run a mapReduce job
+#### Upload your code to S3
+in S3
+under you home folder make the following folders
+```
+logs
+outputs
+code
+```
+Under "code" make the folder "count_ids" and upload the files:
+```
+count_ids_reducer.py
+count_ids_mapper.py
+```
 
-* 
+#### Run your code on ElasticMapreduce
+
 
 ### To upload and download data from S3 get s3cmd
 * http://s3tools.org/download
