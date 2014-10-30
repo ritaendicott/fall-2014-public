@@ -1,10 +1,11 @@
-AWS Instructions
+AWS Recipies
 ================
 Recipe for transfering data from one bucket to another using EC2 
 
 I followed these instructions
 http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html
 
+```
 df -h
 Filesystem      Size  Used Avail Use% Mounted on
 /dev/xvda1      7.8G  7.4G  384K 100% /
@@ -15,23 +16,25 @@ none            5.0M     0  5.0M   0% /run/lock
 none             15G     0   15G   0% /run/shm
 none            100M     0  100M   0% /run/user
 /dev/xvdb        74G   15G   56G  21% /mnt
+```
 
-
-# disk devices and their mount points
+Disk devices and their mount points
+```
  lsblk
 NAME    MAJ:MIN RM SIZE RO TYPE MOUNTPOINT
 xvda    202:0    0   8G  0 disk
 └─xvda1 202:1    0   8G  0 part /
 xvdb    202:16   0  75G  0 disk /mnt
 xvdc    202:32   0  75G  0 disk
-
+```
 I wanted to use xvdb that has 75G
 
+```
 sudo file -s /dev/xvdb
 sudo mkdir /data
 sudo mount /dev/xvdb /data
+```
 
-
-I copied my .zip file to /data.
+I copied my .zip file to /data. Install zip, unziped the data and use s3cmd to pass it to the other s3 bucket.
 
 
