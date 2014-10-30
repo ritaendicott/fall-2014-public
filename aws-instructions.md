@@ -1,6 +1,6 @@
 AWS Recipies
 ================
-Recipe for transfering data from one bucket to another using EC2 
+### Recipe for transfering data from one bucket to another using EC2 
 
 I followed these instructions
 http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html
