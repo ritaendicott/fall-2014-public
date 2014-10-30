@@ -68,8 +68,14 @@ sudo apt-get install s3cmd
 ```
 brew install s3cmd
 ```
+* Configuring s3cmd
+```
+s3cmd --configure
+```
+It is going to ask you for your "Access Key" and "Secret Key". You can find them in your  
+stat157-credentials.boto
 
-sample commands
+* sample commands
 ```
 # List your buckets
 s3cmd ls
