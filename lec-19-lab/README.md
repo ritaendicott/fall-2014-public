@@ -2,19 +2,19 @@ Lecture 19 Lab
 ================
 
 ## Objectives
-Learn how to work with AWS
+Learn how run MapReduce jobs (Python streaming) in AWS
 
 ## Instructions
-git pull to get the start code for the class.
+git pull to get the starter code for the class.
 
 
 ### aws account login
-https://s157-uq2023f.aws.amazon.com/console
+https://stat157-uq85def.signin.aws.amazon.com/console
 
 ### To run a mapReduce job
 #### Upload your code to S3
-in S3
-under you home folder make the following folders
+Go to  S3
+Under your home folder make the following folders
 ```
 logs
 outputs
@@ -27,6 +27,7 @@ count_ids_mapper.py
 ```
 
 #### Run your code on ElasticMapreduce
+Open a new tab with ElasticMapreduce
 
 
 ### To upload and download data from S3 get s3cmd
