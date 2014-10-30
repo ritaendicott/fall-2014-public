@@ -80,7 +80,7 @@ s3cmd get s3://logix.cz-test/addrbook.xml addressbook-2.xml
 # delete files
 s3cmd del s3://logix.cz-test/test.txt
 ```
-#### How to ssh to an instance
+#### How to ssh to an instance?
 You need your stat157-ssh_key.pem file. You can launch and instance in EC2 (say an ubuntu instance). Find the public dns of the instance (in this example ec2-54-201-91-85.us-west-2.compute.amazonaws.com) and run something like this:
 ```
 ssh -i stat157-ssh_key.pem ubuntu@ec2-54-201-91-85.us-west-2.compute.amazonaws.com
