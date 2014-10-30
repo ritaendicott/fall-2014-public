@@ -60,6 +60,10 @@ Follow the instructions from the slides from the class.
 ### To upload and download data from S3 get s3cmd
 * http://s3tools.org/download
 
+* For linux ubuntu (VM) use this
+```
+sudo apt-get install s3cmd
+```
 * For mac you can use brew
 ```
 brew install s3cmd
