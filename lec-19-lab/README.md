@@ -33,7 +33,7 @@ Open a new tab with ElasticMapreduce
 Follow the instructions from the slides from the class.
 * Create a cluster
 * Change cluster name
-* Add log locations <your home>/logs
+* Add log locations \<your home\>/logs
 * In "Applications to be installed" remove hive and pig
 * Select the number of "Core" and "Task" EC2 instances (2, 2)
 * Select your EC2 key pair
