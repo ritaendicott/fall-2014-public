@@ -34,7 +34,6 @@ count_ids_mapper.py
 #### Run your code on ElasticMapreduce
 Open a new tab with ElasticMapreduce
 
-First:
 * Part 1: Run your mapreduce job with the word_count and the file:
 ```
 https://s3-us-west-2.amazonaws.com/stat157-uq85def/shared/shakes.txt
