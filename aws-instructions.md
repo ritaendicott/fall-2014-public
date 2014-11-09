@@ -1,47 +1,49 @@
-AWS Instructions
+AWS Recipies
 ================
+### Recipe for transfering data from one bucket to another using EC2 
 
-# Objectives
-Learn how to work with AWS
+* Install and configure s3cmd (for the s3 bucket that has the data)
+* cp the data using s3cmd get
+* If your data is large > 7G
+  * You need to mount a volume first
+  * Follow instructions below
+* Configure s3cmd for the s3 bucket to cp the data
+* Use s3cmd put
 
-## Instructions
 
-### aws account login
-https://s157-uq2023f.aws.amazon.com/console
+I followed these instructions
+http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html
 
-### To run a mapReduce job
+```
+df -h
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/xvda1      7.8G  7.4G  384K 100% /
+none            4.0K     0  4.0K   0% /sys/fs/cgroup
+udev             15G   12K   15G   1% /dev
+tmpfs           3.0G  336K  3.0G   1% /run
+none            5.0M     0  5.0M   0% /run/lock
+none             15G     0   15G   0% /run/shm
+none            100M     0  100M   0% /run/user
+/dev/xvdb        74G   15G   56G  21% /mnt
+```
 
-* 
+Disk devices and their mount points
+```
+ lsblk
+NAME    MAJ:MIN RM SIZE RO TYPE MOUNTPOINT
+xvda    202:0    0   8G  0 disk
+└─xvda1 202:1    0   8G  0 part /
+xvdb    202:16   0  75G  0 disk /mnt
+xvdc    202:32   0  75G  0 disk
+```
+I wanted to use xvdb that has 75G
 
-### s3cmd
-To upload and download data from S3
-* http://s3tools.org/download
+```
+sudo file -s /dev/xvdb
+sudo mkdir /data
+sudo mount /dev/xvdb /data
+```
 
-* For mac you can use brew
-```
-brew install s3cmd
-```
-* For linux (VM)
-```
-sudo apt-get install -y s3cmd
-```
-You need to configure s3cmd. For this you need your access key and secret key from your amazon account. 
-```
-s3cmd --configure
-```
-sample commands
-```
-# List your buckets
-s3cmd ls
-# List the content of your bucket
-s3cmd ls s3://logix.cz-test
-# List the size of a bucket with "human readable" units
-s3cmd du -H 
-# Upload a file into your bucket
-s3cmd put addressbook.xml s3://logix.cz-test/addrbook.xml
-# Download a file
-s3cmd get s3://logix.cz-test/addrbook.xml addressbook-2.xml
-# delete files
-s3cmd del s3://logix.cz-test/test.txt
-```
+I copied my .zip file to /data. Install zip, unziped the data and use s3cmd to pass it to the other s3 bucket.
+
 

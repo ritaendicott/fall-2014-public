@@ -25,10 +25,10 @@ Under "code" make the folder "word_count" and upload the files (from lec-15-lab)
 word_count_mapper.py
 word_count_reducer.py
 ```
-Under "code" make the folder "count_ids" and upload the files:
+Under "code" make the folder "ctr_adid" and upload the files:
 ```
-count_ids_reducer.py
-count_ids_mapper.py
+ctr_adid_mapper.py
+ctr_adid_reducer.py
 ```
 
 #### Run your code on ElasticMapreduce
@@ -38,7 +38,7 @@ Open a new tab with ElasticMapreduce
 ```
 https://s3-us-west-2.amazonaws.com/stat157-uq85def/shared/shakes.txt
 ```
-* Part 2: Run your mapreduce job with the CTR data and the code under code/count_ids
+* Part 2: Run your mapreduce job with the CTR data and the code under code/ctr_adid
 
 Follow the instructions from the slides from the class.
 * Create a cluster
@@ -60,12 +60,22 @@ Follow the instructions from the slides from the class.
 ### To upload and download data from S3 get s3cmd
 * http://s3tools.org/download
 
+* For linux ubuntu (VM) use this
+```
+sudo apt-get install s3cmd
+```
 * For mac you can use brew
 ```
 brew install s3cmd
 ```
+* Configuring s3cmd
+```
+s3cmd --configure
+```
+It is going to ask you for your "Access Key" and "Secret Key". You can find them in your  
+stat157-credentials.boto
 
-sample commands
+* sample commands
 ```
 # List your buckets
 s3cmd ls
@@ -79,5 +89,10 @@ s3cmd put addressbook.xml s3://logix.cz-test/addrbook.xml
 s3cmd get s3://logix.cz-test/addrbook.xml addressbook-2.xml
 # delete files
 s3cmd del s3://logix.cz-test/test.txt
+```
+#### How to ssh to an instance?
+You need your stat157-ssh_key.pem file. You can launch and instance in EC2 (say an ubuntu instance). Find the public dns of the instance (in this example ec2-54-201-91-85.us-west-2.compute.amazonaws.com) and run something like this:
+```
+ssh -i stat157-ssh_key.pem ubuntu@ec2-54-201-91-85.us-west-2.compute.amazonaws.com
 ```
 
