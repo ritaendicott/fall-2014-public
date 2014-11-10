@@ -80,15 +80,17 @@ stat157-credentials.boto
 # List your buckets
 s3cmd ls
 # List the content of your bucket
-s3cmd ls s3://logix.cz-test
+s3cmd ls s3cmd ls s3://stat157-uq85def/
 # List the size of a bucket with "human readable" units
 s3cmd du -H 
 # Upload a file into your bucket
-s3cmd put addressbook.xml s3://logix.cz-test/addrbook.xml
+s3cmd put mapper.py s3://stat157-uq85def/home/<your user name>
+Example
+s3cmd put mapper.py s3://stat157-uq85def/home/yannet/code
 # Download a file
-s3cmd get s3://logix.cz-test/addrbook.xml addressbook-2.xml
+s3cmd get s3://stat157-uq85def/home/yannet/code/mapper.py
 # delete files
-s3cmd del s3://logix.cz-test/test.txt
+s3cmd del s3://stat157-uq85def/home/yannet/code/mapper.py
 ```
 #### How to ssh to an instance?
 You need your stat157-ssh_key.pem file. You can launch and instance in EC2 (say an ubuntu instance). Find the public dns of the instance (in this example ec2-54-201-91-85.us-west-2.compute.amazonaws.com) and run something like this:
