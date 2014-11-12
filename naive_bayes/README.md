@@ -43,9 +43,15 @@ Write a mapper that loads file with probabilities and computes Pr(click | Data).
 
 * Use this code as a starting point: https://github.com/ucb-stat-157/fall-2014-public/blob/master/naive_bayes/nb_step2_mapper.py
 * To run this you need to send the probability file to every mapper task. You do this by using the -cacheFile option in the "Arguments". Here is an example:
+```
 -cacheFile s3://stat157-uq85def/home/yannet/code/testing_nb/sample_prob.txt#sample_prob.txt
-
-
+```
+The general form is: 
+-cacheFile <s3 bucket>/file.txt#reference
+where reference is used in the python script to open the file.
+```
+with open("reference") as reference_file:
+```
 
 
 
