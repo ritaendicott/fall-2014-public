@@ -98,19 +98,20 @@ Chapter 8. Mining of Massive Datasets. Jure Leskovec, Anand Rajaraman, Jeff Ullm
   * Readings: Chapter 8. An Introduction to Statistical Learning.
 
 * Week 8: Introduction to Hadoop and MapReduce. Python streaming with Hadoop. Joins and aggregation with MapReduce.
-  * Homework 8: Writing mapreduce code in python: - Joins: compute CTR by gender, Two consecutive jobs: Compute the a histogram of the number of ratings per user. (User,Book,Rating dataset) 
+  * Homework 8: Writing mapreduce code in python: - Joins: compute CTR by gender, Two consecutive jobs: Compute the a histogram of the number of ratings per user. (User,Book,Rating dataset)  https://github.com/ucb-stat-157/fall-2014-public/blob/master/assignments/hw8.md
   * Lab 7: https://github.com/ucb-stat-157/fall-2014-public/tree/master/lec-15-lab
   * Readings: 
     * Chaper 2.1-2.2 .Mining of Massive Datasets. Rajaraman, Ullman, Leskovec, Ullman.
     * http://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/ 
 
 * Week 9: MapReduce. Data flow, distributed file system, cluster computing. MapReduce algorithms: matrix multiplication, joins, triagles in a graph. 
-  * Homework 9: Writing mapreduce code in python: TBA
-  * Lab 8: TBA
-  * Readings: 
-    * Chaper 2.1-2.2 .Mining of Massive Datasets. Rajaraman, Ullman, Leskovec, Ullman.
-    * http://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/ 
+  * Homework 9: Writing mapreduce code in python: 
+  * Lab 8: Recommendation system with MapReduce: https://github.com/ucb-stat-157/fall-2014-public/blob/master/lec-17-lab.md
+
+* Week 10: MapReduce and AWS. How to write and run MapReduce Jobs for AWS.
+  * Lab 9: Running MapReduce on AWS. https://github.com/ucb-stat-157/fall-2014-public/tree/master/lec-19-lab
  
+
 *  Week 8-12: Hadoop and MapReduce, AWS. Python streaming. Aggregating CTR data, feature engieneering with MapReduce. Distributed file systems. Implementing a couple of distributed algorithms. Apply machine learning algorithms to different versions (aggregated versions) of the data. Start collaborative projects, set milestones, set up the issue tracker. Collaborative project proposal due on week 10. Code reviewing.
 
 * Week 13-15: Data structures and databases. An introduction to databases using SQLite. Students make 5 minute presentations. Code review and reproducibility review. Ipython, pandas and numpy. Mini lectures on statistical and computational tools needed to complete the project.
