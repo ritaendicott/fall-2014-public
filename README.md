@@ -108,11 +108,16 @@ Chapter 8. Mining of Massive Datasets. Jure Leskovec, Anand Rajaraman, Jeff Ullm
   * Homework 9: Writing mapreduce code in python: 
   * Lab 8: Recommendation system with MapReduce: https://github.com/ucb-stat-157/fall-2014-public/blob/master/lec-17-lab.md
 
-* Week 10: MapReduce and AWS. How to write and run MapReduce Jobs for AWS.
+* Week 10: MapReduce and AWS. How to write and run MapReduce Jobs for AWS. Collaborative project proposal due on week 10. Code reviewing.
   * Lab 9: Running MapReduce on AWS. https://github.com/ucb-stat-157/fall-2014-public/tree/master/lec-19-lab
+  * Project proposal due.
  
+* Week 11: Naive Bayes (NB). Scaling Naive Bayes to MapReduce. Applying NB to the CTR problem
+  * HW 10: Running a jobs in AWS. Computing number of unique ids. Using s3cmd to get data.
+  * Lab: Working on the project.  
 
-*  Week 8-12: Hadoop and MapReduce, AWS. Python streaming. Aggregating CTR data, feature engieneering with MapReduce. Distributed file systems. Implementing a couple of distributed algorithms. Apply machine learning algorithms to different versions (aggregated versions) of the data. Start collaborative projects, set milestones, set up the issue tracker. Collaborative project proposal due on week 10. Code reviewing.
+* Week 12: No lecture (Holiday)
+  *  Lab: Working on the project. Help with Naive Bayes https://github.com/ucb-stat-157/fall-2014-public/tree/master/naive_bayes
 
 * Week 13-15: Data structures and databases. An introduction to databases using SQLite. Students make 5 minute presentations. Code review and reproducibility review. Ipython, pandas and numpy. Mini lectures on statistical and computational tools needed to complete the project.
 
