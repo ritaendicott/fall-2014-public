@@ -1,7 +1,8 @@
-How to write a naive bayes algorithm in MapReduce 
+How to write a naive bayes on MapReduce.  
 ================
+This is for a CTR problem.
 ### Step 1
-For every feature you are interested in write a MapReduce jobs that computes the aggregate impressions and clicks for every feature and value.
+For every feature you are interested in write a MapReduce jobs that computes the aggregate impressions and clicks for every feature and value. This runs on the training set.
 ```
 value \t feature \t clicks \t impressions
 # Example
@@ -13,7 +14,6 @@ value \t feature \t clicks \t impressions
 10110372	ad_id	0	1
 10110402	ad_id	0	2
 ```
-
 
 ### Step 2
 Write a script (regular python script) that computes
@@ -39,7 +39,11 @@ Total Total 0.033185840708 0.966814159292
 ```
 
 ### Step 3
+Write a mapper that loads file with probabilities and computes Pr(click | Data).
 
+* Use this code as a starting point: https://github.com/ucb-stat-157/fall-2014-public/blob/master/naive_bayes/nb_step2_mapper.py
+* To run this you need to send the probability file to every mapper task. You do this by using the -cacheFile option in the "Arguments". Here is an example:
+-cacheFile s3://stat157-uq85def/home/yannet/code/testing_nb/sample_prob.txt#sample_prob.txt
 
 
 
