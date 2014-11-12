@@ -64,6 +64,7 @@ Pr(Click | Data) \t click  ## this would be for a simple impression
 ```
 * Here is a screen shot on how run it in aws.
 https://github.com/ucb-stat-157/fall-2014-public/blob/master/naive_bayes/ScreenShotAWS.png
+
 ### Step 4
 Compute validation / test AUC. You could use a library in R or python.
 
