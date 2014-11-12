@@ -1,4 +1,4 @@
-How to write a naive bayes on MapReduce.  
+How to write a naive bayes algorithm on MapReduce.  
 ================
 This is for a CTR problem.
 ### Step 1
