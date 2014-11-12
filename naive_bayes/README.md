@@ -39,7 +39,7 @@ Total Total 0.033185840708 0.966814159292
 ```
 
 ### Step 3
-Write a mapper that loads file with probabilities and computes Pr(click | Data).
+Write a mapper that loads file with probabilities and computes Pr(click | Data). This runs on validation / test data.
 
 * Use this code as a starting point: https://github.com/ucb-stat-157/fall-2014-public/blob/master/naive_bayes/nb_step2_mapper.py
 * To run this you need to send the probability file to every mapper task. You do this by using the -cacheFile option in the "Arguments". Here is an example:
@@ -52,7 +52,19 @@ where reference is used in the python script to open the file.
 ```
 with open("reference") as reference_file:
 ```
+* The reducer on step 3 is the "identify reducer", you can used 
+```
+org.apache.hadoop.mapred.lib.IdentityReducer
+```
+* the output of this step should be something like
+```
+Pr(Click | Data) \t Clicks \t Impressions
+or
+Pr(Click | Data) \t click  ## this would be for a simple impression 
+```
 
+### Step 4
+Compute validation / test AUC. You could use a library in R or python.
 
 
 
