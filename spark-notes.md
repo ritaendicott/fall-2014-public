@@ -12,7 +12,7 @@ SPARK_VERSION=1.1.0
 tar -xvzf spark-${SPARK_VERSION}.tgz
 cd spark-${SPARK_VERSION}/ec2
 ```
-* 
+
 
 
 
