@@ -23,7 +23,7 @@ def read_probs():
     """
     probs = {}
     # read prob file
-    with open("sample_prob.txt", "r") as f:
+    with open("prob.txt", "r") as f:
         lines = f.readlines()
     for line in lines:
         line = line.strip()
